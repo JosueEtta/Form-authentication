@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styel.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div id="container">
+        <div id="name">
+           ELECTRON<span>X</span>
+        </div>
+        <form action="/login" method="post">
+            <h1>Login</h1>
+            <div class="input-container">
+                <label for="Username">Username</label><br>
+                <input type="text" required>
+            </div>
+            <div class="input-container">
+                <label for="email" required>Email</label><br>
+                <input type="email">
+            </div>
+            <a href="#">Forgot password</a>
+            <button class="">Submit</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
