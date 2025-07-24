@@ -10,22 +10,22 @@
         <div id="name">
            ELECTRON<span>X</span>
         </div>
-        <form action="/login" method="post">
+        <form action="login.php" method="POST">
             <h1>Login</h1>
             <div class="input-container">
                 <label for="Username">Username</label><br>
-                <input type="text" required>
+                <input type="text" name="name" required>
             </div>
             <div class="input-container">
                 <label for="email" required>Email</label><br>
-                <input type="email">
+                <input type="email" name="email" required>
             </div>
             <div class="input-container">
                 <label for="password" required>Password</label><br>
-                <input type="password">
+                <input type="password" name="password" required>
             </div>
             <a href="#">Forgot password</a>
-            <button class="">Submit</button>
+            <button name="submit" type="submit">Submit</button>
         </form>
     </div>
     <script src="index.js"></script>
